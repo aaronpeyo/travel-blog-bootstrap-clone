@@ -1,2 +1,5 @@
-# travel-blog-bootstrap-clone
-Travel blog example bootstrap blog clone
+## Instalar estas dependencias
+- gulp
+- gulp-autoprefixer
+- gulp-sass
+- sass
