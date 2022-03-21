@@ -1,0 +1,41 @@
+
+@mixin linea {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+@mixin box-sizing($box-model) {
+    box-sizing: $box-model;
+}
+
+@mixin border-botom {
+    border-bottom: .1rem solid rgba(0,0,0,.1);
+}
+
+@mixin border {
+    border: .1rem solid rgba(0,0,0,.1);
+}
+
+@mixin telefono {
+    @media (min-width: $telefono) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (min-width: $tablet) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}
+
+@mixin animacion-img {
+    box-shadow: 0 18px 32px -18px #000;
+    transform: translateY(-6px);
+}
+
+@mixin transition-img {
+    transition: all .3s ease-in-out;
+}
